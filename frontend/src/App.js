@@ -1,7 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import FriendsButton from './FriendsButton';
+import React from "react";
+
+import logo from "./logo.svg";
+import "./App.css";
+
+import FriendsButton from "./FriendsButton";
+import GroupsButton from "./GroupsButton";
+import AddButton from "./AddButton";
+import ActivityButton from "./ActivityButton";
+import AccountButton from "./AccountButton";
 
 function App() {
   return (
@@ -21,6 +27,10 @@ function App() {
         </a>
       </header>
       <FriendsButton></FriendsButton>
+      <GroupsButton></GroupsButton>
+      <AddButton></AddButton>
+      <ActivityButton></ActivityButton>
+      <AccountButton></AccountButton>
     </div>
   );
 }
